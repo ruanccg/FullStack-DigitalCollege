@@ -6,8 +6,10 @@ console.log(nome)
 console.log(numero)
 console.log(cidade)
 
+alert("Sua cidade é:" + cidade)
+
 numero = 1000
 console.log(numero)
-alert("Sua cidade é:" + cidade)
+
 
 
