@@ -22,4 +22,3 @@ if(idade >= 18 && cnh == 1){
 else if(idade < 18 || cnh == 2){
     alert(`Prezamos muito pela sua segurança! Sua idade é inferior a 18 anos ou você não tem cnh, por esse motivo você não pode alugar um carro!`)
 }
-
