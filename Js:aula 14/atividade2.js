@@ -22,7 +22,7 @@ switch (curso) {
         alert("Você escolheu o curso de Análise de Dados. A coordenação entrará em contato em breve.")
         break;
     default:
-        alert("Você não digitou uma opção valida, entre em contato com o setor de vendas.")
+        alert("Você não digitou uma opção valida, entre em contato com o setor de vendas. Número (99) 99999-8888.")
         break;
 }
 
