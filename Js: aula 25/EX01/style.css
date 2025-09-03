@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divLousa {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(233, 227, 227);
+    border: 5px solid black;
+}
+
+.divBotoes {
+     display: flex;
+    gap: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.vermelho {
+    background-color: red;
+    color: white;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+}
+
+.verde {
+    background-color: green;
+    color: white;
+}

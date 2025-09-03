@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lousa Mágica</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Lousa Mágica</h1>
+
+    <p>Clique nos botões para aplicar a cor a lousa mágica. Passe o mouse sobre a lousa para apagar a cor</p>
+
+    <div class="divLousa" onmouseover="aplicarCor('rgb(233, 227, 227)')"></div>
+    
+    <div class="divBotoes">
+        <button id="vermelho" class="vermelho" onclick="aplicarCor('red')">Vermelho</button>
+
+        <button id="azul" class="azul" onclick="aplicarCor('blue')">Azul</button>
+        
+        <button id="verde" class="verde" onclick="aplicarCor('green')">Verde</button>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
