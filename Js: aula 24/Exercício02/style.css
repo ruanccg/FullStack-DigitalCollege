@@ -1,0 +1,15 @@
+.urgente {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+
+.naoUrgente {
+    color: black;
+    background-color: rgb(161, 255, 161);
+}
+
+
+
+
